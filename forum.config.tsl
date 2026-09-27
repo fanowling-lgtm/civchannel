@@ -17,21 +17,21 @@ import { defineForumConfig } from './src/lib/config/schema';
  */
 export default defineForumConfig({
 	site: {
-		name: 'Discussion Kit',
-		description: 'A community forum powered by GitHub Discussions',
-		// logo: '💬',                        // emoji shown instead of the default icon
+		name: 'CivChannel',
+		description: 'A political forum for uhh idk bullshit',
+		// logo: '☭',                        // emoji shown instead of the default icon
 		footer: 'Powered by GitHub Discussions'
 	},
 
 	repo: {
 		// Omit owner/name to auto-detect when building in GitHub Actions.
-		owner: 'NotReeceHarris',
-		name: 'discussion-kit'
+		owner: 'fanowling-lgtm',
+		name: ''
 	},
 
 	// Extra header links
 	nav: [
-		// { label: 'Docs', href: 'https://example.com/docs', external: true }
+		// { label: 'Docs', href: 'https://docs.google.com/document/d/14jNbNVG9fvolsRO2_fPjlrxF3VeM9tfd-Q8_9qHu8sw/edit?usp=sharing', external: true }
 	],
 
 	auth: {
@@ -44,14 +44,14 @@ export default defineForumConfig({
 	},
 
 	admins: {
-		logins: ['NotReeceHarris'], // GitHub logins that get the admin badge
+		logins: ['fanowling-lgtm'], // GitHub logins that get the admin badge
 		badgeLabel: 'Admin'  // label shown next to admin usernames
 	},
 
 	// Custom badges shown next to usernames: label → GitHub logins
 	badges: {
-		'Moderator': ['NotDevenBriers'],
-		// 'Contributor': ['someuser', 'anotheruser']
+		'Moderator': ['fanowling-lgtm'],
+		// 'Contributor': ['fanowling-lgtm']
 	},
 
 	content: {
